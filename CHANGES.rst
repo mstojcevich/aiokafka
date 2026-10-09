@@ -20,7 +20,7 @@ Bugfixes:
 
 * Fix an infinite loop in ``StickyPartitionAssignor`` when group members
   subscribe to different topics, which froze the group leader's event loop
-  (issue #NNNN)
+  (issue #1194)
 
 
 0.14.0 (2026-04-29)
