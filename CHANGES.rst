@@ -16,6 +16,12 @@ Breaking changes:
 
 * Drop support for Python 3.10 due to end of life
 
+Bugfixes:
+
+* Fix an infinite loop in ``StickyPartitionAssignor`` when group members
+  subscribe to different topics, which froze the group leader's event loop
+  (issue #NNNN)
+
 
 0.14.0 (2026-04-29)
 ===================
